@@ -1,0 +1,47 @@
+.team-container {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--div-color) !important;
+  border-radius: 30px;
+  width: 90%;
+  margin-top: 60px;
+  margin-left: 30px;
+  color: #0e0c3d;
+}
+/* #0c0c67 */
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.team-member {
+  margin: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.team-member img {
+  border-radius: 80%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #1d1a68;
+}
+
+.team-member-info {
+  text-align: center;
+}
+
+.team-member h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+  font-weight: 600; 
+}
+
+.team-member p {
+  font-size: 0.9em;
+  color: #777; 
+  margin: 0; 
+}

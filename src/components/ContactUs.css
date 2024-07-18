@@ -1,0 +1,93 @@
+.contactus-container {
+  padding: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+  animation: fadeIn 1s ease-in-out;
+  background-color:var(--div-color) !important;
+  border-radius: 20px;
+  margin-top: 40px;
+  width: 40%;
+  padding: 20px;
+}
+
+.contactus-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contactus-container form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactus-container form div {
+  margin-bottom: 15px;
+}
+
+.contactus-container form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contactus-container form input,
+.contactus-container form textarea {
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contactus-container form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color:#0d232d;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+}
+
+.contactus-container form button:hover {
+  background-color: #2f365e; 
+}
+
+.contactus-container .error-message {
+  color: red;
+  font-size: 0.9em;
+}
+
+.contactus-container .success-message {
+  color: green;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.contact {
+  padding-top: 30px;
+}
+
+.department-links button {
+  padding: 5px 20px;
+  margin-right: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #0d232d; 
+  border: none;
+  border-radius: 5px;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

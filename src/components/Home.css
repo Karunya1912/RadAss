@@ -1,0 +1,46 @@
+/* Home.css */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.home-container {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.head{
+  background-color:var(--div-color) !important;
+  height: 500px;
+  opacity: 0.75;
+  width: 65%;
+  margin-top:30px;
+  border-radius: 20px;
+  align-items: left;
+  margin-left:-80px;
+}
+.button{
+  background-color: var(--div-color) !important;
+  height: 170px;
+  margin:50px;
+  width: 25%;
+  border-radius: 20px;
+  margin-top:200px;
+  opacity: 0.95;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.hom{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}

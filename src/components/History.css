@@ -1,0 +1,21 @@
+.history-section{
+    background-color: var(--div-color) !important;
+    border-radius: 30px;
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+   
+    align-items: center;    
+    margin-top: 20px;
+}
+h1{
+    padding-bottom: 1px;
+    color:var(--h1-color) !important;
+}
+
+p{
+    padding: 3px; 
+    color: var(--h6-color) !important;
+    font-size: 1.1em;
+    font-weight: 400;
+}

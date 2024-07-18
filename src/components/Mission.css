@@ -1,0 +1,22 @@
+.mission-section{
+    background-color:var(--div-color) !important;
+    border-radius: 30px;
+    width: 75%;
+    height: 70%;
+    padding: 10px;
+    margin-left: 130px;
+    align-items: center;    
+    margin-top: 80px;
+}
+h1{
+    padding-bottom: 10px;
+    color: var(--h1-color) !important;
+}
+
+h6{
+    padding: 8px; 
+    font-size: 1.02em;
+    font-weight: 600;
+    color: var(--h6-color) !important;
+   
+}
